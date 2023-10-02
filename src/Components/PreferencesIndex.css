@@ -1,0 +1,25 @@
+.prefIndexForm .card .card-body {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.newPrefForm-submitBtn {
+    width: 20%;
+}
+
+#favorites-pill {
+
+    width: 140px;
+    height: 40px;
+    margin: auto;
+
+    color: var(--secondaryColor);
+    font-weight: 900;
+
+    background-color: rgb(84, 24, 167);
+
+    border-radius: 10px;
+}
+ul.list-group{
+    margin-bottom: -1.5rem;
+}

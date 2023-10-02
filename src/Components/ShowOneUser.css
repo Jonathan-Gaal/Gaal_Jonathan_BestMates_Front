@@ -1,0 +1,247 @@
+
+.ShowOneUser {
+        display: flex;
+        justify-content: space-evenly;
+}
+
+
+
+/* .ShowOneUser{
+width: 90%;
+height: 100%;
+border: 1px solid rgb(128, 77, 234, .5);
+        /* color in logo */
+/* display: grid;
+border-radius: 5%;
+margin-top: 5% ; */
+/* } */
+
+/* .ShowOneUser, span{
+display: inline-block;
+} */
+
+/* .userParentCard {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto 0 auto;
+        /* border: .1rem solid rgba(186, 183, 192, 0.288); */
+        /* box-shadow: .06rem .06rem .06rem .06rem rgba(138, 162, 185, 0.136); */
+        /* border-radius: 5% 5%; */
+        /* background-color: white; */
+/* } */
+
+#showOneUserPhoto {
+margin-top: 5%;
+margin-bottom: 3%;
+margin-left: auto;  
+margin-right: auto;
+width: 70%;
+height: 70%;
+object-fit: cover;
+object-position: center;
+border-radius: 50%;
+border: solid rgb(43, 0, 128);
+}
+
+.header {
+text-align: center;
+font-weight: bold;
+margin-left: auto;  
+margin-right: auto;
+}
+
+.basicInfoHeader{
+margin-left: auto;  
+margin-right: auto;
+}
+#firstName-Header, #bio-Header{
+ margin-left: auto;  
+ margin-right: auto;     
+}
+
+
+.userInfo {
+display: grid;
+grid-template-columns: 1fr, 1fr;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+width: 70vw;
+ /* background-color: rgba(191, 174, 227, 0.582); */
+}
+
+/* BASIC INFO */
+.basicInfo, .livingSituation.livingSituation{
+text-align: left;
+}
+.basicInfoRow1, .basicInfoRow2 {
+margin-left: 3.8rem;
+}
+
+
+#basicInfo-Disabled, #basicInfo-Children{
+        margin-left: 2.8rem;       
+}
+
+
+
+/* LIVING SITUATION */
+#livingSituationHeader {
+/* margin-left: 2rem; */
+margin-left: auto;  
+margin-right: auto;
+}
+
+.livingSituationRow1{
+/* margin-left:7rem; */
+text-align: center;
+
+
+}
+
+
+.livingSituationRow2 {
+margin-left: 10.7rem;
+/* text-align: center; */
+}
+
+#livingSituation-City {
+/* margin-right: .6rem; */
+margin-left: 1.5rem;
+}
+#livingSituation-MaxRent {
+margin-right: 1.5rem;
+margin-left: -4.4rem;
+}
+
+#livingSituation-State {
+/* margin-right: .6rem; */
+margin-left: 1.5rem;
+}
+
+#livingSituation-Zip {
+/* margin-right: .6rem; */
+margin-left: 1.5rem;
+}
+
+#livingSituation-HasOpenRooms {
+margin-right: -3rem;
+margin-left: -1.1rem;
+}
+
+#livingSituation-MoveInDate {
+margin-right: 3rem;
+margin-left: 2rem;
+}
+
+
+/* FINANCIAL INFO */
+/* #financialSituationHeader {
+margin-left: 1rem;
+} */
+
+.financialSituationRow1{
+margin-left: 1.8rem;
+
+}
+
+#financialSituation-Income{
+margin-left: -1rem;
+margin-right: 2.5rem;        
+}
+
+#financialSituation-sharesExpenses{
+margin-left: -3rem;
+}
+
+#financialSituation-creditScore{
+margin-left: 1.7rem;
+}
+
+/* ACTIVITIES */
+/* #activitiesHeader{
+margin-left: -1rem;
+} */
+
+.activitiesRow1{
+margin-left: auto;
+margin-right: auto;
+}
+
+#activities-singer{
+margin-left: 1rem;
+}
+
+#activities-hostsParties{
+margin-left: 2rem;
+margin-right: -1rem ;
+}
+
+
+/* .userInfo h5 {
+        text-align: center;
+        text-decoration: underline;
+} */
+
+/* .basicInfo {
+
+ text-align: justify;
+} */
+
+
+/* #basicInfoAttributes{
+ display: flex;
+flex-direction: row;
+} */
+
+/* #basicInfoGroup{
+display: flex;
+flex-direction: column;
+width: 50%;
+align-items: center;
+text-align: left;
+} */
+
+/* .userLivingSituation {
+width: 60%;
+text-align: left;
+align-items: center;
+padding: 2%;
+border: 2px solid black;
+} */
+
+/* #livingSituationAttributes{
+display: flex;
+flex-direction: row;
+text-align: left;
+} */
+
+/* .livingSituationGroup{
+        display: flex;
+        flex-direction: column;
+} */
+
+.userFinances {
+display: flex;
+flex-direction: column;
+width: 40%;
+text-align: justify;
+align-items: left;
+padding: 2%;
+border: 2px solid black;
+}
+
+/* .userFinances span{
+        display: inline-block;
+        width: 30%
+}
+
+.livingSituationAndFinancialInfo{
+        display: flex;
+        flex-direction: row;
+} */
+
+#backToUsersBtn {
+margin: 2%;
+border-radius: 10%;
+}

@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+
+* {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+}
+
+.editUserFormContainer{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: .05fr 1fr 1fr;
+}
+div.editUserForm-componentsBox.row{
+  padding-left: 6rem;
+}
+.editUserForm-componentsBox{
+  display: flex;
+   justify-content: space-evenly;
+}
+.editUserForm-hdg{
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  justify-content: center;
+  margin-right: 4rem;
+}
+div.card.mb-4.userBio-card{
+  width: 35rem; 
+}
+.userBio-component{
+  grid-row: 3;
+}
+.newForm-component{
+  grid-row: 3; 
+}
+
+/* Edit User Form Card */
+.card{
+  display: flex;
+  width: 40rem;
+  height: 100%;
+}
+.editUserForm{
+  width: 37.5rem;
+  margin-right: 30px;
+  height: 60rem; 
+}
+.preferenceIndex{
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prefIndexForm{
+  display: flex;
+  align-items: flex-start;
+}
+
+
+
+/* Style for Standard Select - Non MDB Select Drop Down List */
+/* USE FOR MEDIA QUERY - SMALLER */
+.birthdate-MDB-input{
+  border: 1px solid rgb(182, 181, 181);
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  color:rgb(114, 113, 113) ;
+  padding-left: .4vw;
+}
+
+select, select option{
+  background-color: white;
+}
+select.gender-attribute{
+  border: 1px solid rgb(182, 181, 181);
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 3px;
+  color:rgb(114, 113, 113) ;
+  padding-left: .4vw;
+  margin-left: .38vw;
+  background-color:white ;
+  background:white;
+  color: #4f4f4f;
+}
+select.orientation-attribute{
+  border: 1px solid rgb(182, 181, 181);
+  border-radius: 3px;
+  color:rgb(114, 113, 113) ;
+  padding-left: .4vw;
+  height: 2.5rem;
+  width: 11.5rem;
+  color: #4f4f4f;
+}
+
+.editUserForm-submitBtn, .newPrefForm-submitBtn{
+  width: 11.5rem;
+}
+
+.userFavs-card{
+  width: auto;
+}
+.userBio-submitBtn{
+  height: 2rem;
+  width: 11rem;
+  margin-bottom: 6rem;
+  justify-content: center;
+}
+.temp-profile-image{
+  width:6rem;
+  height: 6rem;
+  background-image: url("../Images/unisex-profile-pic.png");
+  background-size: cover;
+  justify-content: center;
+  margin-left: 13rem;
+}
+.uploadWidget-Btn{
+  width: 12rem;
+  height: 4rem;
+}
+
+
+/* MEDIA QUERIES - to be completed*/
+
+/* USE FOR MEDIA QUERY - SMALLER */
+
+

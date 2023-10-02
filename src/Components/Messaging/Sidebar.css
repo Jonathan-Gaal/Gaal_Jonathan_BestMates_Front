@@ -1,0 +1,142 @@
+.sidebar {
+    margin: 10px;
+    padding-top: 5px;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.messaging-nav {
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
+    padding-left: 0px;
+    margin-bottom: 16px;
+}
+
+.messaging-nav img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--secondaryColor);
+    object-fit: cover;
+  }
+
+#chat-mate-logo {
+    position: absolute;
+    left: -45px;
+    top: -30px;
+    border: 10px solid var(--darkBackgroundColor);
+    border-radius: 50% 10px 50% 50%;
+
+    width: 100px !important;
+    height: 100px !important;
+
+    background-color: var(--darkBackgroundColor);
+}
+
+#exit-chat-btn {
+    margin: 0px;
+    margin: 0;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+.search {
+    padding: 10px;
+}
+
+#search-input {
+    background-color: transparent;
+    box-shadow: 2px 2px 60px var(--mainColor) inset;
+
+    border-radius: 8px;
+
+    padding: 2px;
+    padding-left: 8px !important;
+
+    color: white;
+    outline: none;
+}
+
+#search-input::placeholder {
+    color: rgba(255, 255, 255, 0.602);
+}
+
+.chats {
+    max-height: 420px;
+    min-height: fit-content;
+
+    padding: 10px;
+    padding-top: 0px;
+
+    overflow-y: auto;
+}
+
+.searched-users {
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 30px 7px 7px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 13px 0px 0px 0px;
+
+    padding-right: 10px;
+
+    cursor: pointer;
+}
+
+.searched-users:hover {
+    scale: 1.1;
+    background-color: rgba(24, 252, 75, 0.549);
+
+    transition: all ease 0.1s;
+}
+
+.user-chat {
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 30px 7px 7px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 13px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-right: 10px;
+
+    cursor: pointer;
+
+    background-color: rgba(226, 219, 243, 0.239);
+}
+
+.user-chat:hover {
+    
+    scale: 1.1;
+    background-color: rgba(226, 219, 243, 0.549);
+
+    transition: all ease 0.1s;
+}
+
+.user-chat-info {
+    color: white;
+    font-size: 16px;
+}
+
+.user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--secondaryColor);
+    object-fit: cover;
+}

@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+
+* {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+}
+
+/* .main{
+  background-image: url("../Images/beautiful-spaciuos-livingroom.png");
+  height: 100%;
+  width:100%;
+} */
+
+.check {
+  height: 55px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.preferenceIndex .form-check-label {
+  padding-left: 35px;
+}
+
+.check:hover {
+  box-shadow: 0px 0px 2px rgb(200, 200, 200);
+  background-color: var(--transparentMainColor);
+  transition: all ease 0.1s;
+
+}
+
+.background-light-purple:focus {
+  background-color: var(--transparentMainColor);
+}
+
+.newFormContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 1305px) {
+  .newFormContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 20px;
+    margin: auto;
+  }
+}
+
+select {
+  text-align: center;
+}
+
+strong {
+  font-size: 110%;
+}
+
+.user-bio-pic-container {
+  width: 40rem;
+  height: 14.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 143px;
+
+}
+
+.newform-header {
+  font-weight: 900;
+}
+
+/* div.card-body.newform-cardbody{
+  height: 30rem;
+} */
+div.newForm-componentsBox.row {
+  padding-left: 7.5rem;
+}
+
+.newForm-componentsBox {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.newForm-hdg {
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  justify-content: center;
+  margin-right: 4rem;
+}
+
+.newForm-cardbody {
+  margin-bottom: -2.2rem !important;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* corrects alignment on new form for 2nd row under "has rooms" */
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--mdb-gutter-x) * 0.5);
+  padding-left: 0 !important;
+  margin-top: var(--mdb-gutter-y);
+}
+
+.bioBottomRow {
+  height: 35px;
+  justify-content: center;
+}
+
+.userBio-component {
+  grid-row: 3;
+}
+
+.newForm-component {
+  grid-row: 3;
+}
+
+/* New Form Card */
+.card {
+  display: flex;
+  width: 30rem;
+  height: 50%;
+}
+
+.newForm {
+  width: 37.5rem;
+  margin-right: 30px;
+  height: 40rem;
+}
+
+.preferenceIndex {
+  /* width: 37.5rem; */
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prefIndexForm {
+  display: flex;
+  align-items: flex-start;
+}
+
+label.form-check-label {
+  color: #787878;
+}
+
+/* .nf-column-1{
+  grid-column: 1;
+}
+
+.nf-column-2{
+  grid-column: 2;
+}
+
+.nf-column-3{
+  grid-column: 3;
+} */
+
+/* Style for Standard Select - Non MDB Select Drop Down List */
+/* USE FOR MEDIA QUERY - SMALLER */
+.birthdate-MDB-input {
+  border: 1px solid rgb(182, 181, 181);
+  height: 2.5rem;
+  /* width: 9rem; */
+  width: 100%;
+  border-radius: 1rem;
+  color: rgb(114, 113, 113);
+  padding-left: .4vw;
+}
+
+select,
+select option {
+  background-color: white;
+}
+
+select.gender-attribute {
+  border: 1px solid rgb(182, 181, 181);
+  height: 2.5rem;
+  /* width: 4.5rem; */
+  width: 100%;
+  border-radius: 3px;
+  color: rgb(114, 113, 113);
+  padding-left: .4vw;
+  margin-left: .38vw;
+  background-color: white;
+  background: white;
+  font-weight: bold;
+}
+
+select.orientation-attribute {
+  border: 1px solid rgb(182, 181, 181);
+  /* height: 4.78vh; */
+  /* width: 11.5vw; */
+  /* width: 100%; */
+  /* margin-left: 3vw; */
+  border-radius: 3px;
+  color: rgb(114, 113, 113);
+  padding-left: .4vw;
+  height: 2.5rem;
+  width: 11.5rem;
+  font-weight: bold;
+}
+
+.newForm-submitBtn {
+  width: 20%;
+  margin-top: 0rem;
+}
+
+.userBio-card-img {
+  min-height: 270px;
+  margin-top: 38px;
+}
+
+.btn-secondary {
+  width: 20% !important;
+  margin-top: 10px;
+}
+
+.bioBottomRow {
+  padding-bottom: 10px;
+}
+
+#temp-profile-image {
+  width: 6rem;
+  height: 6rem;
+  background-image: url("../Images/unisex-profile-pic.png");
+  background-size: cover;
+  margin: auto;
+
+  /* margin-bottom:1rem; */
+}
+
+#uploadWidget-Btn2 {
+  width: 10%;
+  margin-top: 15px;
+  /* margin-top: 2.15rem; */
+  border: none;
+  padding: 3px;
+}
+
+#profile-pic {
+  width: 140px;
+  height: 140px;
+
+  display: block;
+  margin: auto;
+  margin-top: -9px;
+
+  border-radius: 50%;
+}
+
+#profile-pic:hover {
+  box-shadow: 0px 0px 8px var(--darkMainColor);
+  cursor: url("../Images/arrows.png"), auto;
+
+}
+
+/* MEDIA QUERIES - to be completed*/
+
+/* USE FOR MEDIA QUERY - SMALLER */
+
+/* 
+.birthdate-MDB-input{
+  border: 1px solid rgb(182, 181, 181);
+  height: 4.78vh;
+  width: 13.5vw;
+  border-radius: 3px;
+  color:rgb(114, 113, 113) ;
+  padding-left: .4vw;
+}
+
+
+.gender-select{
+  border: 1px solid rgb(182, 181, 181);
+  height: 4.78vh;
+  width: 13.5vw;
+  border-radius: 3px;
+  color:rgb(114, 113, 113) ;
+  padding-left: .4vw;
+}
+
+.orientation-select{
+  border: 1px solid rgb(182, 181, 181);
+  height: 4.78vh;
+  width: 13.5vw;
+  border-radius: 3px;
+  color:rgb(114, 113, 113) ;
+  padding-left: .4vw;
+}
+ */
+
+.upload-widget .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 320px;
+  top: 55px;
+  z-index: 1;
+}
+
+.upload-widget:hover .tooltiptext {
+  visibility: visible;
+}
+
+.upload-widget .tooltiptext2 {
+  visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 320px;
+  top: 215px;
+  z-index: 1;
+}
+
+.upload-widget:hover .tooltiptext2 {
+  visibility: visible;
+}

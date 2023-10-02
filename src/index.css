@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap'); */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --mainColor: #8c52ff;
+  --brightMainColor: #622fc9;
+  --transparentMainColor: #cbb1ff26;
+  --darkMainColor: #2e008b;
+  --secondaryColor: #66ff33;
+  --darkSecondaryColor: #228700;
+  --darkBackgroundColor: #12061e;
+  --lightBackgroundColor: beige;
+}
+
+*,
+h1,
+/* h2 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+} */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.home {
+  width: 60%;
+  height: 70%;
+  /* background-image: url("./Images/roommates-composite-with-veneers.png"); */
+  /* background-size:cover; */
+  font-family: 'Petit Formal Script', cursive;
+  /* display: grid; */
+  /* grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr); */
+}
+.home-header{
+  font-variant: small-caps;
+  font-weight: bolder;
+}
+.bestMate-wordLink {
+  font-style: italic;
+  font-weight: bolder;
+  font: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blueviolet;
+
+}
+.homeHdgBox a:hover {
+  /* color: var(--secondaryColor); */
+  /* text-shadow: 3px 3px 3px var(--darkMainColor); */
+  font-weight: bolder;
+  color: #5ec088
+}
+
+.home-image-box{
+  background-color: rgb(241, 251, 251);
+}
+.image1{
+  width:100vw;
+  height: 78vh; 
+  object-fit:cover;
+  position: absolute;
+  margin-top: 0;
+  left: 0;
+  /* min-width: 100%; */
+}
+
+.image2{
+  width:85vw;
+  height:80vh; 
+  object-fit:cover;
+  /* position: absolute; */
+  margin-top: 0;
+  left: 0;
+}
+
+.image3{
+  width:85vw;
+  height:78vh; 
+  object-fit:cover;
+  /* position: absolute; */
+  margin-top: 0;
+  left: 0;
+}
+
+.alice-carousel__dots {
+  margin: 0px 3px 5px!important;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.homeHdgBox {
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 251, 251);
+  /* background-color: rgba(202, 232, 222, 0.287); */
+  color: blueviolet;
+  letter-spacing: .25em;
+}
+
+.homeHdgBox h2 {
+  /* color: var(--mainColor); */
+  /* color:#450ee8 */
+  color: navy;
+}
+
+.uploadWidget-Btn {
+  height: 4.78vh;
+  width: 9.5vw;
+  border-radius: 3px;
+  padding-left: .4vw;
+  margin-left: -.15vw;
+}
+
+#preferences-heading {
+  margin-left: 6%;
+}
+
+.terms-box{
+display: flex;
+justify-content: space-around; 
+align-items: center;
+width: 100%;
+
+}
+div.card.terms-card.col-10{
+font-size: .9rem;
+color:rgba(128, 126, 126, 0.779) !important;
+width: 60rem !important;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 1rem;;
+text-align: justify;
+
+}
+
+/* .terms-headerCard{
+  width: 40%;
+} */
+
+h4.mb-3.termsHdg{
+  text-align: center;
+}
+.terms-cardBody {
+  margin-left: .5rem;
+  text-align: justify;
+  /* overflow:hidden; */
+  white-space:normal;
+  width: 100%;
+  color:rgba(128, 126, 126, 0.779) !important;
+}
+
+.terms-intro{
+  text-justify: distribute;
+}
+.terms-backBtn {
+  background-color: white;
+  color: var(--mainColor);
+  font-weight: bold;
+  width: 90px;
+  margin:0 auto;
+  border-radius: 10px;
+  border: 2px solid var(--mainColor);
+  height: 35px;
+  margin-top: 1rem;
+  /* margin-left: 26.7rem; */
+}
+
+.terms-backBtn:hover {
+  background-color: var(--darkMainColor);
+  color: var(--secondaryColor);
+
+  border: 2px solid var(--secondaryColor);
+  box-shadow: 2px 2px white;
+}

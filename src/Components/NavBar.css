@@ -1,0 +1,150 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    min-width: 700px;
+    padding: 0 2rem;
+    background-image: linear-gradient(0.7turn, var(--darkMainColor), 60%, var(--darkBackgroundColor));
+
+
+    color: var(--secondaryColor);
+
+    margin-bottom: .5rem;
+    /*changed from 1.5 - LadyD*/
+
+    box-shadow: 0 10px 30px 20px var(--mainColorLight);
+}
+
+
+.logo {
+    width: 7.28rem;
+    position: relative;
+    /* padding-top: 0.5rem; */
+    top: -.8rem;
+    height: 7.1rem;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    transition: all ease 0.3s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70vw;
+}
+
+nav a {
+    font-family: 'Barlow', sans-serif;
+    color: var(--secondaryColor);
+    text-decoration: none;
+    font-size: large;
+}
+
+nav a:hover,
+.nav-btn:hover,
+.compose-btn:hover,
+.login-btn:hover {
+    color: #9c6bff;
+    border-bottom: 4px solid white;
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}
+
+nav .nav-spacer {
+    color: #2e008b;
+    background: #2e008b;
+    width: 2.8rem;
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+.sign-nav-btn {
+    background-color: white;
+    color: white;
+    font-weight: bold;
+    width: 90px;
+
+    text-shadow: 0px 0px 7px white;
+
+    border-radius: 10px;
+    border: 2px solid var(--mainColor);
+
+    height: 6px;
+    margin-top: 27px;
+    padding-top: 2px;
+
+    transition: all ease 0.1s;
+}
+
+.sign-nav-btn:hover {
+    background-color: var(--darkMainColor);
+    color: var(--secondaryColor);
+
+    border: 2px solid var(--secondaryColor);
+    box-shadow: 2px 2px white;
+    text-shadow: none;
+
+    height: 35px;
+}
+
+.sign-nav-btn:active {
+    box-shadow: 3px 3px 5px white inset;
+}
+
+@media only screen and (max-width: 890px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+    header nav {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-image: linear-gradient(to right, var(--darkBackgroundColor), var(--darkMainColor));
+        transition: 0.5s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 0rem;
+        right: .5rem;
+        font-size: 1rem;
+    }
+}
+
+/*
+Ref: https://www.youtube.com/watch?v=amf18mxNX18
+*/
